@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DbBrowser.jnlp">
+  <information>
+    <title>DbBrowser</title>
+    <vendor>Ýrem Serra</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DbBrowser.jar" size="18681" download="eager" />
+    <jar href="lib\mysql-connector-j-9.1.0.jar" size="2597591" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DbBrowser" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dbbrowser.MainApp"  name="DbBrowser" />
+  <update check="always"/>
+</jnlp>

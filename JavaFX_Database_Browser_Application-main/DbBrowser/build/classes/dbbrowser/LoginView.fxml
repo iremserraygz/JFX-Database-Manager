@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbbrowser.LoginController">
+   
+    <top>
+        <HBox alignment="CENTER" style="-fx-padding: 20; -fx-background-color: #f0f0f0;">
+            <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Database Login" />
+        </HBox>
+    </top>
+
+    <center>
+        <VBox fx:id="mainContainer" spacing="15" alignment="CENTER" style="-fx-padding: 40; -fx-background-color: #ffffff;" onKeyPressed="#handleKeyPress">
+            <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Database URL:" />
+            <TextField fx:id="dbUrlField" promptText="Enter database URL" style="-fx-pref-width: 250;" />
+
+            <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Username:" />
+            <TextField fx:id="usernameField" promptText="Enter username" style="-fx-pref-width: 250;" />
+
+            <Label style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Password:" />
+            <PasswordField fx:id="passwordField" promptText="Enter password" style="-fx-pref-width: 250;" />
+
+            <Button fx:id="connectButton" onAction="#handleConnect" text="Connect" style="-fx-pref-width: 250; -fx-padding: 10; -fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 14px;" />
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox />
+    </bottom>
+
+</BorderPane>
