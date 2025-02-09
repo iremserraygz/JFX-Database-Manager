@@ -58,11 +58,15 @@ JFX Database Manager is designed as a simple and user-friendly database manageme
 ## ⚙️ Installation
 
 1️⃣ **Install JDK 8+** ☕
+
 2️⃣ **Install XAMPP** 🛠️ (Start MySQL module)
+
 3️⃣ **Download the project files** 📥
+
 4️⃣ **Install dependencies** 📦 (via Maven/Gradle)
    - JavaFX
    - MySQL Connector/J
+   - 
 5️⃣ **Open in IntelliJ IDEA or NetBeans** 🖥️
 
 ## 🚀 Usage
@@ -90,6 +94,6 @@ JFX Database Manager is designed as a simple and user-friendly database manageme
 ---
 
 💡 **Contributors:** 
-[Leofia] ✨  
+@Leofia ✨  
 
 
