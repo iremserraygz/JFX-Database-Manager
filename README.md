@@ -72,10 +72,15 @@ JFX Database Manager is designed as a simple and user-friendly database manageme
 ## 🚀 Usage
 
 1️⃣ **Start the application** 🎬
+
 2️⃣ **Login to the database** 🔐 (Enter database URL, username, and password, then hit **Enter** or click "Connect")
+
 3️⃣ **Browse databases & tables** 📁
+
 4️⃣ **Modify table data** ✏️ (Add/Edit/Delete rows & columns)
+
 5️⃣ **Run SQL queries** 📝 (Execute and view results instantly)
+
 6️⃣ **Save or refresh data** 🔄
 
 ## 🔧 Technical Details
